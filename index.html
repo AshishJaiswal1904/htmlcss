@@ -7,13 +7,34 @@
         <title>
             This is Bootstrap Starter Page
         </title>
+        
         <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/styles.css">
+        <style>
+            .cell{
+                background-color: aqua;
+                border: black solid 1px;
+                box-sizing:border-box;
+                
+            }
+            .box{
+                margin:0%;
+            }
+        </style>
     </head>
     <body>
-        <h1>Hello!</h1>
+        
         <script src="bootstrap-4.5.2-dist/js/jquery-3.5.1.min.js"></script>
         <script src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
         <script src="bootstrap-4.5.2-dist/js/script.js"></script>
+        <div class="container-fluid box">
+            <h1>Hello!</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 cell">Col 1</div>
+                <div class="col-lg-3 col-md-6 cell">Col 2</div>
+                <div class="col-lg-3 col-md-6 cell">Col 3</div>
+                <div class="col-lg-3 col-md-6 cell">Col 4</div>
+            </div>
+        </div>
     </body>
 </html>
